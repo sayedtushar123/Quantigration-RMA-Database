@@ -1,0 +1,9 @@
+RMAID,OrderID,Step,Status,Reason
+40001,5175,Awaiting Documentation,Pending,Defective
+40002,6002,Inspection Pending,Pending,Rejected
+40003,6003,Receiving,In Progress,Wrong Item
+40004,6004,Quality Review,Pending,Rejected
+40005,6006,Replacement Sent,Complete,Defective
+40006,6007,Credit Applied,Complete,Rejected
+40007,6008,Inspection Pending,Pending,Damaged
+40008,6009,Received,In Progress,Missing Parts

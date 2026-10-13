@@ -1,0 +1,9 @@
+CustomerID,FirstName,LastName,StreetAddress,City,State,ZipCode,Telephone
+200001,Morgan,Reed,12 Oak Street,Framingham,Massachusetts,01701,508-555-0101
+200002,Jordan,Blake,48 Elm Road,Framingham,Massachusetts,01702,508-555-0102
+200003,Avery,Chen,91 Harbor Lane,Boston,Massachusetts,02108,617-555-0103
+200004,Taylor,Finch,7 River Avenue,Woonsocket,Rhode Island,02895,401-555-0104
+200005,Reese,Parker,32 North Street,Woonsocket,Rhode Island,02895,401-555-0105
+200006,Casey,Miller,10 Pine Court,Reno,Nevada,89501,775-555-0106
+200007,Drew,Patel,25 Lake Street,Austin,Texas,78701,512-555-0107
+200008,Alex,Rivera,81 Market Road,Sacramento,California,95814,916-555-0108

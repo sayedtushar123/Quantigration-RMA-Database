@@ -1,0 +1,12 @@
+OrderID,CustomerID,SKU,Description
+5175,200001,SW-24-10C,24-port managed copper network switch
+6001,200001,RTR-100,Business network router
+6002,200002,SW-48-10F,48-port managed fiber network switch
+6003,200003,AP-200,Wireless access point
+6004,200004,SW-24-10C,24-port managed copper network switch
+6005,200005,RTR-100,Business network router
+6006,200006,AP-200,Wireless access point
+6007,200007,SW-48-10F,48-port managed fiber network switch
+6008,200008,SW-24-10C,24-port managed copper network switch
+6009,200002,RTR-100,Business network router
+6010,200003,SW-48-10F,48-port managed fiber network switch

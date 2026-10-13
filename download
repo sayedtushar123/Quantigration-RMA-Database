@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+*.sql.gz
+orders_export.csv
+*.db

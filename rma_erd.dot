@@ -1,0 +1,31 @@
+digraph G {
+ graph [rankdir=LR, bgcolor="#FFFFFF", fontname="DejaVu Sans", nodesep=0.7, ranksep=0.85, pad=0.22]
+ node [shape=plain, fontname="DejaVu Sans"]
+ edge [color="#2B6CB0", penwidth=2.0, arrowsize=0.85]
+ customers [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="7" COLOR="#B8CBE0">
+ <TR><TD BGCOLOR="#204C75"><FONT COLOR="white"><B>Customers / Collaborators</B></FONT></TD></TR>
+ <TR><TD ALIGN="LEFT"><B>CustomerID / CollaboratorID</B> (PK) INT</TD></TR>
+ <TR><TD ALIGN="LEFT">FirstName / LastName VARCHAR(25)</TD></TR>
+ <TR><TD ALIGN="LEFT">StreetAddress / City VARCHAR(50)</TD></TR>
+ <TR><TD ALIGN="LEFT">State VARCHAR(25)</TD></TR>
+ <TR><TD ALIGN="LEFT">ZipCode VARCHAR(10)</TD></TR>
+ <TR><TD ALIGN="LEFT">Telephone VARCHAR(15)</TD></TR>
+ </TABLE>>]
+ orders [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="7" COLOR="#B8CBE0">
+ <TR><TD BGCOLOR="#204C75"><FONT COLOR="white"><B>Orders</B></FONT></TD></TR>
+ <TR><TD ALIGN="LEFT"><B>OrderID</B> (PK) INT</TD></TR>
+ <TR><TD ALIGN="LEFT">CustomerID / CollaboratorID (FK) INT</TD></TR>
+ <TR><TD ALIGN="LEFT">SKU VARCHAR(20)</TD></TR>
+ <TR><TD ALIGN="LEFT">Description VARCHAR(75)</TD></TR>
+ </TABLE>>]
+ rma [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="7" COLOR="#B8CBE0">
+ <TR><TD BGCOLOR="#204C75"><FONT COLOR="white"><B>RMA</B></FONT></TD></TR>
+ <TR><TD ALIGN="LEFT"><B>RMAID</B> (PK) INT</TD></TR>
+ <TR><TD ALIGN="LEFT">OrderID (FK) INT</TD></TR>
+ <TR><TD ALIGN="LEFT">Step VARCHAR(50)</TD></TR>
+ <TR><TD ALIGN="LEFT">Status VARCHAR(15)</TD></TR>
+ <TR><TD ALIGN="LEFT">Reason VARCHAR(15)</TD></TR>
+ </TABLE>>]
+ customers:e -> orders:w [label="1 → many", fontcolor="#294B68", fontsize=11]
+ orders:e -> rma:w [label="1 → many", fontcolor="#294B68", fontsize=11]
+}
