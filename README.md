@@ -1,6 +1,6 @@
 # Quantigration RMA Database | MySQL Portfolio Project
 
-![Relational database diagram](diagrams/rma_erd.png)
+![Quantigration RMA Database ERD](rma_erd.png)
 
 A relational database project for tracking product returns at a **fictional networking equipment manufacturer**. I built this project as part of database coursework and organized a public, reproducible portfolio version using **original, synthetic sample data**.
 
@@ -119,19 +119,19 @@ These are **screenshots of my original MySQL/Codio lab work**; they are separate
 
 **Relational table creation and foreign key**
 
-02_orders_table_and_foreign_key.png
+![Orders table and foreign key](02_orders_table_and_foreign_key.png)
 
 **SQL JOIN — 505 orders in Framingham, Massachusetts**
 
-![INNER JOIN and COUNT output for Framingham orders](screenshots/07_join_framingham_orders.png)
+![SQL JOIN showing Framingham orders](07_join_framingham_orders.png)
 
 **RMA update — before and after**
 
-![UPDATE RMA and SELECT verifying changed status and step](screenshots/12_update_rma_status.png)
+![RMA update and verification](12_update_rma_status.png)
 
 **CSV export — 37,998 orders written and verified**
 
-![MySQL CSV export and file verification](screenshots/15_export_orders_csv.png)
+![CSV export verification](15_export_orders_csv.png)
 
 The export evidence shows an initial file-read permission error followed by a successful permission adjustment, CSV line count, and sample output. Both the troubleshooting and verified result are included as authentic session evidence.
 
