@@ -119,7 +119,7 @@ These are **screenshots of my original MySQL/Codio lab work**; they are separate
 
 **Relational table creation and foreign key**
 
-![Orders table and foreign key validation from MySQL](screenshots/02_orders_table_and_foreign_key.png)
+02_orders_table_and_foreign_key.png
 
 **SQL JOIN — 505 orders in Framingham, Massachusetts**
 
